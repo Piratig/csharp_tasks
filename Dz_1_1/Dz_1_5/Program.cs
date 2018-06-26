@@ -10,8 +10,6 @@ namespace Dz_1_5
 {
     class Program
     {
-        double[] number = new double[2];
-
         static void Main(string[] args)
         {
             double number1;
