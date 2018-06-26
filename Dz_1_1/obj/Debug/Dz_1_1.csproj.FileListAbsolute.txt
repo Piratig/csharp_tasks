@@ -1,0 +1,7 @@
+C:\Users\kharkovskiy-is\source\repos\Dz_1_1\Dz_1_1\bin\Debug\Dz_1_1.exe.config
+C:\Users\kharkovskiy-is\source\repos\Dz_1_1\Dz_1_1\bin\Debug\Dz_1_1.exe
+C:\Users\kharkovskiy-is\source\repos\Dz_1_1\Dz_1_1\bin\Debug\Dz_1_1.pdb
+C:\Users\kharkovskiy-is\source\repos\Dz_1_1\Dz_1_1\obj\Debug\Dz_1_1.csprojAssemblyReference.cache
+C:\Users\kharkovskiy-is\source\repos\Dz_1_1\Dz_1_1\obj\Debug\Dz_1_1.csproj.CoreCompileInputs.cache
+C:\Users\kharkovskiy-is\source\repos\Dz_1_1\Dz_1_1\obj\Debug\Dz_1_1.exe
+C:\Users\kharkovskiy-is\source\repos\Dz_1_1\Dz_1_1\obj\Debug\Dz_1_1.pdb
