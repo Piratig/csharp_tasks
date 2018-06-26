@@ -8,16 +8,15 @@ namespace Dz_1_1
 {
     class Program
     {             
-        static void Nomber(int nomber)
-        {
-            char[] arrayNomber = nomber.ToString().ToCharArray();
-            for (int i = 0; i < arrayNomber.Length; i++)
-            { Console.WriteLine(arrayNomber[i]); }
-        }
-
         static void Main(string[] args)
-        {           
-            Nomber(12345);
+        {
+            int number = 12345;
+            for (int i = 10000; i >= 1; i /= 10)
+            {
+                int outputNumber = number / i;
+                number -= outputNumber * i;
+                Console.WriteLine(outputNumber);
+            }
             Console.ReadLine();
         } 
     }

@@ -11,9 +11,9 @@ namespace Dz_1_3
         static void Main(string[] args)
         {
             Console.Write("Введите число в метрах = ");
-            double meter = int.Parse(Console.ReadLine());
-            meter /= 1000;
-            Console.WriteLine("В киллометрах = {0}.", meter);
+            double.TryParse(Console.ReadLine(), out double kilometr);
+            double meter = kilometr / 1000;
+            Console.WriteLine("В километрах = {0}.", meter);
             Console.ReadLine();
         }
     }

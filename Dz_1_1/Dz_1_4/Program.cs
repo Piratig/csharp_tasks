@@ -14,46 +14,34 @@ namespace Dz_1_4
             Console.ReadLine();
         }
 
-        static void Cout(string labNomber, string group, string name)
+        static void Cout(string labNumber, string group, string name)
         {
-            int count = 0;
-
-            if (labNomber.Length > name.Length)
-            {
-                if (labNomber.Length > group.Length)
-                { count = labNomber.Length; }
-                else
-                { count = group.Length; }
-            }
-            else
-            {
-                if (name.Length > group.Length)
-                { count = name.Length; }
-                else
-                { count = group.Length; }
-            }
-            Star();
-            Console.Write("\n* {0}", labNomber);
-            Space(labNomber.Length);
+            int count = (labNumber.Length > name.Length) ? (labNumber.Length > group.Length) ? labNumber.Length : group.Length : (name.Length > group.Length) ? name.Length : group.Length;
+            
+            Star(count);
+            Console.Write("\n* {0}", labNumber, count);
+            Space(labNumber.Length, count);
             Console.Write("*\n* {0}", group);
-            Space(group.Length);
+            Space(group.Length, count);
             Console.Write("*\n* {0}", name);
-            Space(name.Length);
+            Space(name.Length, count);
             Console.WriteLine("*");
-            Star();
-
-
-
-            void Star()
-            {
-                for (int i = 0; i < count + 3; i++)
-                { Console.Write("*"); }
-            }
-            void Space(int n)
-            {
-                for (int i = 0; i < count - n; i++)
-                { Console.Write(" "); }
-            }
+            Star(count);
         }
+
+
+
+        static void Star(int count)
+        {
+            for (int i = 0; i < count + 3; i++)
+            { Console.Write("*"); }
+        }
+
+        static void Space(int n, int count)
+        {
+            for (int i = 0; i < count - n; i++)
+            { Console.Write(" "); }
+        }
+
     }
 }
