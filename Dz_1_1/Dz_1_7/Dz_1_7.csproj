@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1E0580D5-D55C-453E-959D-B975D1226C61}</ProjectGuid>
+    <ProjectGuid>{CBE1BF08-CE12-4C8B-A193-1FF2253C929E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Dz_1_1</RootNamespace>
-    <AssemblyName>Dz_1_1</AssemblyName>
+    <RootNamespace>Dz_1_7</RootNamespace>
+    <AssemblyName>Dz_1_7</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,7 +33,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
